@@ -1,0 +1,465 @@
+<!-- =================================================================
+   Aescu（アクス）LP 埋め込み用HTMLコード（画像差し込み＆GitHub干渉対策済・最終版）
+================================================================== -->
+
+<!-- Google Fonts を強制的に読み込み、ローカルと同じ美しいフォントを再現 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+
+<div id="aescu-lp-container">
+
+  <!-- 1. メインビジュアル（ファーストビュー） -->
+  <section class="lp-hero">
+    <!-- スタジオの背景写真 -->
+    <div class="hero-bg-overlay">
+      <img src="images/hero-bg.jpg" alt="Aescu（アクス）整体×マシンピラティス スタジオ風景" class="hero-bg-img">
+    </div>
+    
+    <div class="hero-content">
+      <div class="hero-badge">8月限定 2,980円で体験予約</div>
+      <p class="hero-sub">茨城県古河市 | 整体×マシンピラティス Aescu（アクス）</p>
+      <h1 class="hero-title">3か月で目指す、<br class="sp-only">二の腕・太もも・ふくらはぎの引き締め。</h1>
+      <p class="hero-lead">自己流の運動で変わりにくかった身体へ。姿勢分析で身体の使い方のクセを見極めながら、マシンピラティスで気になる3部位にアプローチします。</p>
+      
+      <a href="#reserve" class="cta-button animate-shine">体験内容を見る</a>
+      
+      <div class="hero-features">
+        <div class="feature-tag">8月限定 引き締めの体験</div>
+        <div class="feature-tag">集中選択 二の腕・太もも・ふくらはぎ</div>
+        <div class="feature-tag">初めてでも安心 運動が苦手な方でもOK</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. 料金・概要セクション -->
+  <section class="lp-overview">
+    <table class="overview-table">
+      <tr>
+        <th>料金</th>
+        <td><strong>2,980円</strong><br><span class="note">※8月限定の体験価格です。</span></td>
+      </tr>
+      <tr>
+        <th>時間</th>
+        <td><strong>約60分</strong><br><span class="note">カウンセリング・姿勢分析込み。</span></td>
+      </tr>
+      <tr>
+        <th>場所</th>
+        <td><strong>古河市</strong><br><span class="note">茨城県古河市 整体×マシンピラティス Aescuのスタジオです。</span>
+      </tr>
+      <tr>
+        <th>対象</th>
+        <td><strong>初心者OK</strong><br><span class="note">運動が久しぶりの方にも対応。</span></td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- 3. フック（キャンペーン案内） -->
+  <section class="lp-campaign">
+    <div class="campaign-badge">SUMMER LIMITED</div>
+    <h2 class="section-title">8月限定！二の腕・太もも・ふくらはぎ引き締め体験</h2>
+    <p class="campaign-lead">まずは一度、身体のクセと変えられるポイントを確認できます。</p>
+    
+    <div class="price-box">
+      <p class="price-sub">カウンセリング・姿勢分析込み</p>
+      <p class="price-main">¥2,980</p>
+      <p class="price-note">約60分 / 運動初心者も対応 / 8月限定キャンペーン</p>
+    </div>
+    <a href="#reserve" class="cta-button animate-shine">この内容で体験予約</a>
+  </section>
+
+  <!-- 4. お悩みセクション -->
+  <section class="lp-worries">
+    <div class="section-tag">FOR YOU</div>
+    <h2 class="section-title">こんなお悩みがある方へ</h2>
+    <p class="section-lead">「痩せたい」だけではなく、部分的なたるみや張り感を<strong>身体の土台から整えたい方</strong>に向けた体験です。</p>
+    
+    <div class="worry-list">
+      <!-- 二の腕 -->
+      <div class="worry-item">
+        <div class="worry-img-box">
+          <img src="images/worry-arm.png" alt="二の腕が気になる女性" class="worry-illust">
+        </div>
+        <div class="worry-text-box">
+          <h3>二の腕</h3>
+          <p>ノースリーブや写真で、腕まわりの見え方が気になる。</p>
+        </div>
+      </div>
+      <!-- 太もも -->
+      <div class="worry-item">
+        <div class="worry-img-box">
+          <img src="images/worry-leg.png" alt="太ももが気になる女性" class="worry-illust">
+        </div>
+        <div class="worry-text-box">
+          <h3>太もも</h3>
+          <p>前ももが張りやすく、脚をすっきり見せる動き方がわからない。</p>
+        </div>
+      </div>
+      <!-- ふくらはぎ -->
+      <div class="worry-item">
+        <div class="worry-img-box">
+          <img src="images/worry-calf.png" alt="ふくらはぎが気になる女性" class="worry-illust">
+        </div>
+        <div class="worry-text-box">
+          <h3>ふくらはぎ</h3>
+          <p>むくみや張り感で、下半身が重たく見える日が多い。</p>
+        </div>
+      </div>
+    </div>
+    
+    <a href="#reserve" class="cta-button animate-shine">2,980円で体験する</a>
+  </section>
+
+  <!-- 5. ブランドコンセプト -->
+  <section class="lp-concept">
+    <div class="concept-container">
+      <div class="concept-main-box">
+        <div class="section-tag">WHY AESCU</div>
+        <h2 class="section-title">引き締めたい部位だけでなく、<br>姿勢と動きのクセから見ます。</h2>
+        <p class="concept-text">
+          Aescuでは、ただ鍛えるだけではなく、二の腕や脚が張って見える原因を解剖学に基づく姿勢分析と動きのクセから確認します。<strong>身体の土台を整えてから動かすこと</strong>で、すっきり見えるラインづくりをサポートします。
+        </p>
+        
+        <div class="concept-steps">
+          <div class="c-step"><span>01</span> 解剖学に基づく姿勢分析</div>
+          <div class="c-step"><span>02</span> マシンで正しく動かす</div>
+          <div class="c-step"><span>03</span> 3か月で習慣化</div>
+        </div>
+      </div>
+      <div class="concept-img-box">
+        <!-- コンセプト女性イラスト -->
+        <img src="images/concept-woman.png" alt="Aescu（アクス）コンセプトイラスト" class="concept-illust">
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. プログラム詳細 -->
+  <section class="lp-program">
+    <div class="section-tag">PROGRAM</div>
+    <h2 class="section-title">気になる3部位に、理由からアプローチ。</h2>
+    <p class="program-lead">二の腕、太もも、ふくらはぎは、姿勢バランスや関節の使い方によって張りやすく見えることがあります。Aescuでは、身体全体のつながりを見ながら、狙った部位を動かしやすい状態へ導きます。</p>
+    
+    <div class="program-details">
+      <div class="p-item">
+        <span class="p-num">01</span>
+        <strong>姿勢分析</strong>
+        <p>姿勢分析に基づき、気になる部位に負荷が集まる原因を確認します。</p>
+      </div>
+      <div class="p-item">
+        <span class="p-num">02</span>
+        <strong>部位別マシンレッスン</strong>
+        <p>リフォーマーの負荷を調整し、二の腕・太もも・ふくらはぎを丁寧に動かします。</p>
+      </div>
+      <div class="p-item">
+        <span class="p-num">03</span>
+        <strong>自宅ケアの提案</strong>
+        <p>レッスン以外の日も続けやすい、短時間のセルフケアをお伝えします。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. よくある質問（FAQ） -->
+  <section class="lp-faq">
+    <div class="section-tag">FAQ</div>
+    <h2 class="section-title">よくある質問</h2>
+    
+    <div class="faq-container">
+      <details class="faq-item">
+        <summary>運動初心者でもマシンピラティスはできますか？</summary>
+        <div class="faq-answer">はい、マシンの負荷を調整しながら進めるため、運動が久しぶりの方も始めやすい内容です。</div>
+      </details>
+      <details class="faq-item">
+        <summary>3か月で必ず細くなりますか？</summary>
+        <div class="faq-answer">変化には個人差があります。Aescuでは、3か月を目安に身体の使い方を整え、二の腕・太もも・ふくらはぎの見え方の変化を目指します。</div>
+      </details>
+      <details class="faq-item">
+        <summary>整体とマシンピラティスを組み合わせる理由は？</summary>
+        <div class="faq-answer">動かしにくさや張り感には、姿勢バランスや関節の使い方が関係することがあります。身体の土台を整えてから動かすことで、狙った部位を使いやすくします。</div>
+      </details>
+      <details class="faq-item">
+        <summary>古河市以外からも通えますか？</summary>
+        <div class="faq-answer">はい、古河市周辺で通いやすい方を想定しています。詳しい所在地やアクセスはご予約時にご案内します。</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- 8. 予約フォーム・CTA（最終コンバージョン） -->
+  <section id="reserve" class="lp-reservation">
+    <div class="section-tag">RESERVATION</div>
+    <h2 class="section-title">8月限定2,980円で、Aescuの体験を予約する。</h2>
+    <p class="reserve-lead">茨城県古河市で、二の腕・太もも・ふくらはぎが気になる方へ。まずは体験レッスンで、今の身体のクセと変えられるポイントを一緒に確認しましょう。</p>
+    
+    <div class="reserve-actions">
+      <a href="https://beauty.hotpepper.jp/kr/slnH000756652/" class="btn-primary animate-shine">8月限定クーポンで体験予約する<br><span class="btn-sub">（ホットペッパービューティーの予約画面へ遷移します）</span></a>
+      <p class="reserve-note">※ボタンを押すと、ホットペッパービューティーの「Aescuの体験クーポン選択画面」へ直接移動します。リクルートIDをお持ちの方はポイントが貯まります・使えます。</p>
+      <a href="https://beauty.hotpepper.jp/kr/slnH000756652/" class="btn-secondary">8月限定2,980円で体験予約</a>
+    </div>
+  </section>
+
+</div>
+
+<!-- =================================================================
+   専用スタイリング（親サイトと干渉しないよう詳細度を極限までUP）
+================================================================== -->
+<style>
+/* フォント適用ルールを強制化 */
+#aescu-lp-container,
+#aescu-lp-container h1,
+#aescu-lp-container h2,
+#aescu-lp-container h3,
+#aescu-lp-container p,
+#aescu-lp-container span,
+#aescu-lp-container td,
+#aescu-lp-container th {
+  font-family: "Noto Serif JP", "Noto Sans JP", -apple-system, BlinkMacSystemFont, serif !important;
+}
+
+#aescu-lp-container {
+  max-width: 640px;
+  margin: 0 auto !important;
+  background-color: #fcfaf7 !important;
+  color: #2c2421 !important;
+  line-height: 1.8 !important;
+  letter-spacing: 0.05em !important;
+  padding: 0 15px !important;
+  box-sizing: border-box !important;
+}
+
+/* 各セクションの親バグ（絶対配置バグ）を打ち消す */
+#aescu-lp-container section {
+  position: relative !important;
+  display: block !important;
+  float: none !important;
+  clear: both !important;
+  padding: 50px 0 !important;
+  border-bottom: 1px solid rgba(44,36,33,0.05) !important;
+  box-sizing: border-box !important;
+}
+
+#aescu-lp-container .section-title {
+  font-family: "Noto Serif JP", Georgia, serif !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  margin-bottom: 20px !important;
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
+}
+
+#aescu-lp-container .section-tag {
+  font-size: 11px !important;
+  letter-spacing: 0.2em !important;
+  color: #e87a5d !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 5px !important;
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  transform: none !important;
+}
+
+/* 改行制御 */
+.sp-only { display: none; }
+@media (max-width: 640px) {
+  .sp-only { display: block; }
+}
+
+/* 1. Hero */
+#aescu-lp-container .lp-hero { 
+  text-align: center !important; 
+  background: #ffffff !important; 
+  padding: 0 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.02) !important; 
+  overflow: hidden !important;
+}
+/* 背景写真のトリミングアスペクト比固定 */
+#aescu-lp-container .hero-bg-overlay {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  position: relative;
+}
+#aescu-lp-container .hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#aescu-lp-container .hero-content {
+  padding: 40px 20px !important;
+}
+#aescu-lp-container .hero-badge { 
+  display: inline-block !important; 
+  background: #e87a5d !important; 
+  color: #fff !important; 
+  padding: 4px 15px !important; 
+  font-size: 13px !important; 
+  font-weight: bold !important;
+  border-radius: 20px !important; 
+  margin-bottom: 15px !important; 
+}
+#aescu-lp-container .hero-sub { font-size: 12px !important; color: #8c827e !important; margin-bottom: 10px !important; }
+#aescu-lp-container .hero-title { 
+  font-family: "Noto Serif JP", Georgia, serif !important; 
+  font-size: 24px !important;
+  font-weight: bold !important; 
+  line-height: 1.5 !important; 
+  margin: 15px 0 !important; 
+  text-align: center !important;
+}
+@media (max-width: 640px) {
+  #aescu-lp-container .hero-title { font-size: 19px !important; }
+}
+#aescu-lp-container .hero-lead { font-size: 14px !important; color: #594e4a !important; text-align: left !important; margin-bottom: 20px !important; }
+#aescu-lp-container .hero-features { display: flex !important; flex-direction: column !important; gap: 8px !important; margin-top: 25px !important; }
+#aescu-lp-container .feature-tag { background: #f3ede8 !important; font-size: 12px !important; padding: 8px !important; border-radius: 6px !important; font-weight: 500 !important; }
+
+/* 2. Overview Table */
+#aescu-lp-container .overview-table { width: 100% !important; border-collapse: collapse !important; margin: 20px 0 !important; }
+#aescu-lp-container .overview-table tr { border-bottom: 1px solid #ebdcd5 !important; }
+#aescu-lp-container .overview-table th { width: 25% !important; text-align: left !important; padding: 12px 10px !important; font-size: 13px !important; color: #e87a5d !important; vertical-align: top !important; }
+#aescu-lp-container .overview-table td { padding: 12px 10px !important; font-size: 14px !important; text-align: left !important; }
+#aescu-lp-container .overview-table .note { font-size: 12px !important; color: #6e635f !important; }
+
+/* 3. Campaign & Price */
+#aescu-lp-container .campaign-badge { text-align: center !important; font-size: 10px !important; letter-spacing: 0.3em !important; color: #baa096 !important; }
+#aescu-lp-container .campaign-lead { text-align: center !important; font-size: 13px !important; margin-bottom: 25px !important; color: #594e4a !important; }
+#aescu-lp-container .price-box { background: #ffffff !important; border: 1px solid rgba(232,122,93,0.2) !important; padding: 25px !important; border-radius: 8px !important; text-align: center !important; box-shadow: 0 6px 18px rgba(61,47,43,0.03) !important; }
+#aescu-lp-container .price-sub { font-size: 12px !important; margin: 0 !important; color: #8c827e !important; }
+#aescu-lp-container .price-main { font-size: 36px !important; font-weight: bold !important; color: #e87a5d !important; margin: 5px 0 !important; font-family: 'Helvetica Neue', Arial, sans-serif !important; }
+#aescu-lp-container .price-note { font-size: 11px !important; margin: 0 !important; color: #2c2421 !important; font-weight: 500 !important; }
+
+/* 4. Worries Block */
+#aescu-lp-container .worry-list { display: flex !important; flex-direction: column !important; gap: 12px !important; margin: 25px 0 !important; }
+#aescu-lp-container .worry-item { 
+  background: #ffffff !important; 
+  padding: 15px !important; 
+  border-radius: 8px !important; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.02) !important; 
+  display: flex !important;
+  align-items: center !important;
+  gap: 15px !important;
+}
+#aescu-lp-container .worry-img-box {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #f3ede8;
+}
+#aescu-lp-container .worry-illust {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#aescu-lp-container .worry-text-box {
+  flex-grow: 1;
+}
+#aescu-lp-container .worry-item h3 { margin: 0 0 5px 0 !important; font-size: 16px !important; color: #e87a5d !important; text-align: left !important; }
+#aescu-lp-container .worry-item p { margin: 0 !important; font-size: 13px !important; color: #594e4a !important; line-height: 1.6 !important; text-align: left !important;}
+
+/* 5 & 6. Concept & Program */
+#aescu-lp-container .concept-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 640px) {
+  #aescu-lp-container .concept-container { flex-direction: column; }
+}
+#aescu-lp-container .concept-main-box { flex: 1; }
+#aescu-lp-container .concept-img-box {
+  width: 180px;
+  flex-shrink: 0;
+}
+@media (max-width: 640px) {
+  #aescu-lp-container .concept-img-box { width: 140px; margin: 0 auto; order: -1; margin-bottom: 20px;}
+}
+#aescu-lp-container .concept-illust {
+  width: 100%;
+  height: auto;
+}
+#aescu-lp-container .concept-text { font-size: 14px !important; color: #4a3f3b !important; background: #ffffff !important; padding: 20px !important; border-radius: 8px !important; text-align: left !important; }
+#aescu-lp-container .concept-steps, #aescu-lp-container .program-details { display: flex !important; flex-direction: column !important; gap: 15px !important; margin-top: 25px !important; }
+#aescu-lp-container .c-step { font-size: 14px !important; font-weight: 500 !important; padding-bottom: 10px !important; border-bottom: 1px dashed #ebdcd5 !important; text-align: left !important; }
+#aescu-lp-container .c-step span { color: #e87a5d !important; font-weight: bold !important; margin-right: 10px !important; }
+#aescu-lp-container .p-item { background: #ffffff !important; padding: 20px !important; border-radius: 8px !important; position: relative !important; text-align: left !important; }
+#aescu-lp-container .p-num { font-size: 24px !important; font-weight: bold !important; color: rgba(232,122,93,0.15) !important; position: absolute !important; top: 10px !important; right: 20px !important; }
+#aescu-lp-container .p-item strong { display: block !important; font-size: 15px !important; margin-bottom: 5px !important; color: #2c2421 !important; }
+#aescu-lp-container .p-item p { margin: 0 !important; font-size: 13px !important; color: #594e4a !important; line-height: 1.6 !important; }
+
+/* 7. FAQ (Accordion) */
+#aescu-lp-container .faq-container { display: flex !important; flex-direction: column !important; gap: 10px !important; margin-top: 20px !important; }
+#aescu-lp-container .faq-item { background: #ffffff !important; border-radius: 6px !important; overflow: hidden !important; box-shadow: 0 2px 8px rgba(0,0,0,0.01) !important; text-align: left !important; }
+#aescu-lp-container .faq-item summary { padding: 15px !important; font-size: 14px !important; font-weight: 500 !important; cursor: pointer !important; color: #2c2421 !important; border-bottom: 1px solid #fcfaf7 !important; list-style: none !important; position: relative !important; text-align: left !important; }
+#aescu-lp-container .faq-item summary::-webkit-details-marker { display: none !important; }
+#aescu-lp-container .faq-item summary::after { content: '▼' !important; font-size: 10px !important; color: #baa096 !important; position: absolute !important; right: 15px !important; top: 18px !important; }
+#aescu-lp-container .faq-item[open] summary::after { content: '▲' !important; }
+#aescu-lp-container .faq-answer { padding: 15px !important; font-size: 13px !important; color: #594e4a !important; background: #fdfcfb !important; border-top: 1px solid #f6f1ed !important; text-align: left !important; }
+
+/* 8. Reservation */
+#aescu-lp-container .lp-reservation { background: #fffdfb !important; text-align: center !important; padding: 40px 20px !important; border-radius: 12px !important; border: 2px solid #ebdcd5 !important; }
+#aescu-lp-container .reserve-lead { font-size: 13px !important; text-align: left !important; color: #594e4a !important; margin-bottom: 30px !important; }
+#aescu-lp-container .reserve-actions { display: flex !important; flex-direction: column !important; gap: 15px !important; align-items: center !important; }
+#aescu-lp-container .reserve-note { font-size: 11px !important; color: #8c827e !important; text-align: left !important; max-width: 440px !important; margin: 0 !important; line-height: 1.5 !important; }
+
+/* Global CTA Buttons */
+#aescu-lp-container .cta-button, 
+#aescu-lp-container .btn-primary, 
+#aescu-lp-container .btn-secondary {
+  display: flex !important; 
+  flex-direction: column !important; 
+  align-items: center !important; 
+  justify-content: center !important;
+  width: 100% !important; 
+  max-width: 440px !important; 
+  border-radius: 50px !important; 
+  text-decoration: none !important; 
+  font-weight: bold !important; 
+  box-sizing: border-box !important; 
+  transition: all 0.3s ease !important;
+  margin: 0 auto !important;
+}
+#aescu-lp-container .cta-button, 
+#aescu-lp-container .btn-primary {
+  padding: 16px 20px !important; 
+  font-size: 18px !important; 
+  background: linear-gradient(135deg, #e87a5d 0%, #f49f85 100%) !important; 
+  color: #ffffff !important; 
+  box-shadow: 0 6px 20px rgba(232,122,93,0.25) !important; 
+  border: none !important;
+}
+#aescu-lp-container .btn-primary { padding: 20px 20px !important; font-size: 18px !important; }
+#aescu-lp-container .btn-sub { font-size: 11px !important; font-weight: normal !important; opacity: 0.9 !important; margin-top: 4px !important; }
+#aescu-lp-container .btn-secondary {
+  padding: 14px 20px !important; 
+  font-size: 15px !important; 
+  background: #ffffff !important; 
+  color: #e87a5d !important; 
+  border: 1px solid #e87a5d !important; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.02) !important;
+}
+
+/* キラッとおしゃれに光るアニメーション */
+#aescu-lp-container .animate-shine { position: relative !important; overflow: hidden !important; }
+#aescu-lp-container .animate-shine::after {
+  content: "" !important; position: absolute !important; top: -50% !important; left: -60% !important; width: 30% !important; height: 200% !important;
+  background: rgba(255, 255, 255, 0.5) !important; transform: rotate(35deg) !important; animation: lpShine 3.5s infinite ease-in-out !important;
+}
+@keyframes lpShine {
+  0% { left: -60%; }
+  15% { left: 130%; }
+  100% { left: 130%; }
+}
+
+/* ホバー・アクティブ時の微調整 */
+#aescu-lp-container .cta-button:active, 
+#aescu-lp-container .btn-primary:active { 
+  transform: scale(0.98) !important; 
+  opacity: 0.95 !important; 
+}
+</style>
